@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  8 OCT 2020 02:10
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  9 OCT 2020 18:32
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -105,41 +105,76 @@ File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 \Gin@req@height=\dimen144
 \Gin@req@width=\dimen145
 )
+(/usr/local/texlive/2020/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2020/01/03 v3.4h Customizing captions (AR)
+
+(/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 61.
+\captionmargin=\dimen146
+\captionmargin@=\dimen147
+\captionwidth=\dimen148
+\caption@tempdima=\dimen149
+\caption@indent=\dimen150
+\caption@parindent=\dimen151
+\caption@hangindent=\dimen152
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count187
+\c@continuedfloat=\count188
+)
+\c@KVtest=\count189
+\sf@farskip=\skip52
+\sf@captopadj=\dimen153
+\sf@capskip=\skip53
+\sf@nearskip=\skip54
+\c@subfigure=\count190
+\c@subfigure@save=\count191
+\c@lofdepth=\count192
+\c@subtable=\count193
+\c@subtable@save=\count194
+\c@lotdepth=\count195
+\sf@top=\skip55
+\sf@bottom=\skip56
+)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count187
+\l__kernel_color_stack_int=\count196
 \l__pdf_internal_box=\box47
 )
 (./pp2.aux)
 \openout1 = `pp2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count188
-\scratchdimen=\dimen146
+\scratchcounter=\count197
+\scratchdimen=\dimen154
 \scratchbox=\box48
-\nofMPsegments=\count189
-\nofMParguments=\count190
+\nofMPsegments=\count198
+\nofMParguments=\count199
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count191
-\MPscratchDim=\dimen147
-\MPnumerator=\count192
-\makeMPintoPDFobject=\count193
+\MPscratchCnt=\count266
+\MPscratchDim=\dimen155
+\MPnumerator=\count267
+\makeMPintoPDFobject=\count268
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -150,34 +185,123 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+Underfull \hbox (badness 10000) in paragraph at lines 14--17
+
+ []
+
 <../output/task1iiartificial.png, id=1, 462.528pt x 346.896pt>
 File: ../output/task1iiartificial.png Graphic file (type png)
 <use ../output/task1iiartificial.png>
-Package pdftex.def Info: ../output/task1iiartificial.png  used on input line 20
+Package pdftex.def Info: ../output/task1iiartificial.png  used on input line 18
 .
-(pdftex.def)             Requested size: 345.0pt x 258.76335pt.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/task1iicrime.png, id=3, 462.528pt x 346.896pt>
+File: ../output/task1iicrime.png Graphic file (type png)
+<use ../output/task1iicrime.png>
+Package pdftex.def Info: ../output/task1iicrime.png  used on input line 19.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 18--23
+[][] []
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+
+ []
+
+<../output/task1iiiartificial.png, id=4, 462.528pt x 346.896pt>
+File: ../output/task1iiiartificial.png Graphic file (type png)
+<use ../output/task1iiiartificial.png>
+Package pdftex.def Info: ../output/task1iiiartificial.png  used on input line 2
+4.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/task1iiicrime.png, id=5, 462.528pt x 346.896pt>
+File: ../output/task1iiicrime.png Graphic file (type png)
+<use ../output/task1iiicrime.png>
+Package pdftex.def Info: ../output/task1iiicrime.png  used on input line 25.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 24--27
+[][] []
+ []
 
 [1
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../outp
-ut/task1iiartificial.png>] (./pp2.aux) ) 
+ut/task1iiartificial.png> <../output/task1iicrime.png>]
+<../output/task1iiiartificialcopy.png, id=17, 462.528pt x 346.896pt>
+File: ../output/task1iiiartificialcopy.png Graphic file (type png)
+<use ../output/task1iiiartificialcopy.png>
+Package pdftex.def Info: ../output/task1iiiartificialcopy.png  used on input li
+ne 28.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/task1iiicrimecopy.png, id=18, 462.528pt x 346.896pt>
+File: ../output/task1iiicrimecopy.png Graphic file (type png)
+<use ../output/task1iiicrimecopy.png>
+Package pdftex.def Info: ../output/task1iiicrimecopy.png  used on input line 29
+.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 28--31
+[][] []
+ []
+
+<../output/task2f3.png, id=19, 462.528pt x 346.896pt>
+File: ../output/task2f3.png Graphic file (type png)
+<use ../output/task2f3.png>
+Package pdftex.def Info: ../output/task2f3.png  used on input line 36.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/task2f5.png, id=20, 462.528pt x 346.896pt>
+File: ../output/task2f5.png Graphic file (type png)
+<use ../output/task2f5.png>
+Package pdftex.def Info: ../output/task2f5.png  used on input line 37.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 36--39
+[][] []
+ []
+
+[2 <../output/task1iiiartificial.png> <../output/task1iiicrime.png> <../output/
+task1iiiartificialcopy.png> <../output/task1iiicrimecopy.png>]
+<../output/task2f3evid.png, id=28, 462.528pt x 346.896pt>
+File: ../output/task2f3evid.png Graphic file (type png)
+<use ../output/task2f3evid.png>
+Package pdftex.def Info: ../output/task2f3evid.png  used on input line 40.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/task2f5evid.png, id=29, 462.528pt x 346.896pt>
+File: ../output/task2f5evid.png Graphic file (type png)
+<use ../output/task2f5evid.png>
+Package pdftex.def Info: ../output/task2f5evid.png  used on input line 41.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 40--43
+[][] []
+ []
+
+[3 <../output/task2f3.png> <../output/task2f5.png> <../output/task2f3evid.png> 
+<../output/task2f5evid.png>] (./pp2.aux) ) 
 Here is how much of TeX's memory you used:
- 1782 strings out of 480608
- 24475 string characters out of 5903631
- 262439 words of memory out of 5000000
- 17691 multiletter control sequences out of 15000+600000
- 536959 words of font info for 40 fonts, out of 8000000 for 9000
+ 3077 strings out of 480608
+ 48261 string characters out of 5903631
+ 288074 words of memory out of 5000000
+ 18967 multiletter control sequences out of 15000+600000
+ 536652 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 30i,6n,25p,285b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fon
-ts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/font
-s/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/
-type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/ty
-pe1/public/amsfonts/cm/cmr17.pfb>
-Output written on pp2.pdf (1 page, 55897 bytes).
+ 50i,6n,48p,722b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fo
+nts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/
+type1/public/amsfonts/cm/cmr17.pfb>
+Output written on pp2.pdf (3 pages, 285426 bytes).
 PDF statistics:
- 27 PDF objects out of 1000 (max. 8388607)
- 17 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 6 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 

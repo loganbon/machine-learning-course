@@ -71,6 +71,7 @@ def BayesianPolyReg(trainX, trainY, testX, testY, degree):
     for i in range(degree + 1):
         dataX[i] = trainX ** i
         testData[i] = testX ** i
+
     dataX = dataX.T
     testData = testData.T
 
@@ -82,15 +83,20 @@ def BayesianPolyReg(trainX, trainY, testX, testY, degree):
         gamma = np.sum(eigVals / (eigVals + alpha))
 
         SN = np.linalg.inv((alpha * np.identity(dataX.shape[1])) + (beta * (dataX.T.dot(dataX))))
-        print(dataX.shape)
-        print(testData.shape)
-        mN = beta * (SN.dot(dataX.T.dot(testData)))
+      
+        mN = beta * (SN.dot(dataX.T).dot(trainY))
 
         alpha0 = gamma / mN.T.dot(mN)
-        beta0 =  ((1 / (n - gamma)) * (np.sum((testData - dataX.dot(mN)) ** 2))) ** -1
+        beta0 =  ((1 / (n - gamma)) * (np.sum((trainY - dataX.dot(mN)) ** 2))) ** -1
 
         aErr, bErr = abs(alpha0 - alpha), abs(beta0 - beta)
         alpha, beta = alpha0, beta0
+        if isinstance(beta, complex) or isinstance(alpha, complex):
+            continue
+
+        if aErr < 10 ** -5 and bErr < 10 ** -5:
+            break
+
     lambdaParam = alpha / beta
 
     A = (alpha * np.identity(dataX.shape[1])) + (beta * (dataX.T.dot(dataX)))
@@ -99,12 +105,12 @@ def BayesianPolyReg(trainX, trainY, testX, testY, degree):
 
     logEvid = (M / 2 * math.log(alpha)) + (N / 2 * math.log(beta)) - EmN - (math.log(np.linalg.det(A))) - (N / 2 * math.log(2 * math.pi))
 
-    w = np.linalg.inv((lambdaParam * np.identity(dataX.shape[1])) + dataX.T.dot(dataX)).dot(dataX.T.dot(testY))
+    w = np.linalg.inv((lambdaParam * np.identity(dataX.shape[1])) + dataX.T.dot(dataX)).dot(dataX.T.dot(trainY))
     mse = np.sum((testData.dot(w) - testY) ** 2) / n
 
     return logEvid, mse
 
-'''
+
 ### TASK 1
 print('Task 1)\n')
 fileNames = ['artificial', 'crime']
@@ -126,7 +132,7 @@ for i in range(len(fileNames)):
 
     for frac in fractions:
         alpha, beta, mse = BayesianLR(data[i][0], data[i][1], data[i][2], data[i][3], trainFraction=frac)
-        print('alpha:', alpha, 'beta:', beta, 'lambda:', alpha / beta)
+        print('Train Size:', frac, 'alpha:', alpha, 'beta:', beta, 'lambda:', alpha / beta)
     print()
 
 print('(ii)')
@@ -179,9 +185,9 @@ for i in range(len(fileNames)):
     plt.legend()
     plt.savefig('output/task1iii' + fileNames[i] + '.png')
     plt.clf()
-'''
+
 ### TASK 2
-print('Task 2)\n')
+print('\nTask 2)\n')
 
 fileNames = ['f3', 'f5']
 degrees = list(range(1, 11))
@@ -197,18 +203,18 @@ for i in range(len(fileNames)):
 
 for i in range(len(fileNames)):
     print('File:', fileNames[i])
-
+    print('Generating graphs...')
     degreeErrors = [[] for i in range(3)]
 
-    for j in range(len(degrees)):
-        degreeErrors[0].append(PolyRegression(data[i][0], data[i][1], data[i][2], data[i][3], degrees[j]))
-        logEvidence, mse = BayesianPolyReg(data[i][0], data[i][1], data[i][2], data[i][3], degrees[j])
+    for j in degrees:
+        degreeErrors[0].append(PolyRegression(data[i][0], data[i][1], data[i][2], data[i][3], j))
+        logEvidence, mse = BayesianPolyReg(data[i][0], data[i][1], data[i][2], data[i][3], j)
         degreeErrors[1].append(mse)
         degreeErrors[2].append(logEvidence)
+        
 
     plt.plot(degrees, degreeErrors[0], color='red', label='Poly Regression')
     plt.plot(degrees, degreeErrors[1], color='blue', label='Bayes Poly MSE')
-    plt.plot(degrees, degreeErrors[2], color='orange', label='Bayes Poly Log Evidence')
     plt.xlabel('Degree')
     plt.ylabel('MSE')
     plt.yscale('log')
@@ -217,4 +223,10 @@ for i in range(len(fileNames)):
     plt.savefig('output/task2' + fileNames[i] + '.png')
     plt.clf()
 
-    print(degreeErrors)
+    plt.plot(degrees, degreeErrors[2], color='orange')
+    plt.xlabel('Degree')
+    plt.ylabel('Log Evidence')
+    plt.title(fileNames[i] + ': Degree vs. Log Evidence')
+    plt.savefig('output/task2' + fileNames[i] + 'evid.png')
+    plt.clf()
+    
