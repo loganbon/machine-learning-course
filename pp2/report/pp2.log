@@ -114,67 +114,30 @@ Package: caption 2020/01/03 v3.4h Customizing captions (AR)
 (/usr/local/texlive/2020/texmf-dist/tex/latex/caption/caption3.sty
 Package: caption3 2020/01/03 v1.8h caption3 kernel (AR)
 Package caption3 Info: TeX engine: e-TeX on input line 61.
-\captionmargin=\dimen146
-\captionmargin@=\dimen147
-\captionwidth=\dimen148
-\caption@tempdima=\dimen149
-\caption@indent=\dimen150
-\caption@parindent=\dimen151
-\caption@hangindent=\dimen152
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count187
-\c@continuedfloat=\count188
-)
-\c@KVtest=\count189
-\sf@farskip=\skip52
-\sf@captopadj=\dimen153
-\sf@capskip=\skip53
-\sf@nearskip=\skip54
-\c@subfigure=\count190
-\c@subfigure@save=\count191
-\c@lofdepth=\count192
-\c@subtable=\count193
-\c@subtable@save=\count194
-\c@lotdepth=\count195
-\sf@top=\skip55
-\sf@bottom=\skip56
-)
-(/usr/local/texlive/2020/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
-File: l3backend-pdfmode.def 2020-03-12 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count196
-\l__pdf_internal_box=\box47
-)
-(./pp2.aux)
-\openout1 = `pp2.aux'.
-
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
-LaTeX Font Info:    ... okay on input line 7.
+\captionmargin=\dimen1nt Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
+LaTeX Font Info:    ... okay on input line 5.
 
 (/usr/local/texlive/2020/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count197
-\scratchdimen=\dimen154
+\scratchcounter=\count188
+\scratchdimen=\dimen146
 \scratchbox=\box48
-\nofMPsegments=\count198
-\nofMParguments=\count199
+\nofMPsegments=\count189
+\nofMParguments=\count190
 \everyMPshowfont=\toks21
-\MPscratchCnt=\count266
-\MPscratchDim=\dimen155
-\MPnumerator=\count267
-\makeMPintoPDFobject=\count268
+\MPscratchCnt=\count191
+\MPscratchDim=\dimen147
+\MPnumerator=\count192
+\makeMPintoPDFobject=\count193
 \everyMPtoPDFconversion=\toks22
 ) (/usr/local/texlive/2020/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -185,20 +148,44 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: subfig package v1.3 is loaded.
-Package caption Info: End \AtBeginDocument code.
-
-Underfull \hbox (badness 10000) in paragraph at lines 14--17
-
- []
-
 <../output/task1iiartificial.png, id=1, 462.528pt x 346.896pt>
-File: ../output/task1iiartificial.png Graphic file (type png)
-<use ../output/task1iiartificial.png>
-Package pdftex.def Info: ../output/task1iiartificial.png  used on input line 18
-.
-(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \relax 
+l.17 ...idth=100]{../output/task1iiartificial.png}
+                                                  
+? 
+! Emergency stop.
+<to be read again> 
+                   \relax 
+l.17 ...idth=100]{../output/task1iiartificial.png}
+                                                  
+End of file on the terminal!
+
+ 
+Here is how much of TeX's memory you used:
+ 1777 strings out of 480608
+ 24399 string characters out of 5903631
+ 262439 words of memory out of 5000000
+ 17689 multiletter control sequences out of 15000+600000
+ 536652 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,25p,285b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+memory out of 5000000
+ 17700 multiletter control sequences out of 15000+600000
+ 536652 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,25p,362b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+000000
+ 17705 multiletter control sequences out of 15000+600000
+ 536652 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 30i,6n,25p,410b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+29.37639pt.
 <../output/task1iicrime.png, id=3, 462.528pt x 346.896pt>
 File: ../output/task1iicrime.png Graphic file (type png)
 <use ../output/task1iicrime.png>
@@ -251,32 +238,39 @@ Overfull \hbox (17.22221pt too wide) in paragraph at lines 28--31
 [][] []
  []
 
-<../output/task2f3.png, id=19, 462.528pt x 346.896pt>
-File: ../output/task2f3.png Graphic file (type png)
-<use ../output/task2f3.png>
-Package pdftex.def Info: ../output/task2f3.png  used on input line 36.
-(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<../output/task2f5.png, id=20, 462.528pt x 346.896pt>
-File: ../output/task2f5.png Graphic file (type png)
-<use ../output/task2f5.png>
-Package pdftex.def Info: ../output/task2f5.png  used on input line 37.
-(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
 
-Overfull \hbox (17.22221pt too wide) in paragraph at lines 36--39
-[][] []
- []
+LaTeX Warning: File `../output/task2artifical.png' not found on input line 36.
 
-[2 <../output/task1iiiartificial.png> <../output/task1iiicrime.png> <../output/
-task1iiiartificialcopy.png> <../output/task1iiicrimecopy.png>]
-<../output/task2f3evid.png, id=28, 462.528pt x 346.896pt>
-File: ../output/task2f3evid.png Graphic file (type png)
-<use ../output/task2f3evid.png>
-Package pdftex.def Info: ../output/task2f3evid.png  used on input line 40.
-(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
-<../output/task2f5evid.png, id=29, 462.528pt x 346.896pt>
-File: ../output/task2f5evid.png Graphic file (type png)
-<use ../output/task2f5evid.png>
-Package pdftex.def Info: ../output/task2f5evid.png  used on input line 41.
+
+! Package pdftex.def Error: File `../output/task2artifical.png' not found: usin
+g draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...5\textwidth]{../output/task2artifical.png}
+                                                  
+? 
+! Emergency stop.
+ ...                                              
+                                                  
+l.36 ...5\textwidth]{../output/task2artifical.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+ 
+Here is how much of TeX's memory you used:
+ 3081 strings out of 480608
+ 48414 string characters out of 5903631
+ 288074 words of memory out of 5000000
+ 18962 multiletter control sequences out of 15000+600000
+ 536652 words of font info for 39 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 50i,6n,48p,722b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!
+ng  used on input line 41.
 (pdftex.def)             Requested size: 172.5pt x 129.37639pt.
 
 Overfull \hbox (17.22221pt too wide) in paragraph at lines 40--43
