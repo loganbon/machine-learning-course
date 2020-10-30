@@ -1,10 +1,12 @@
-# Bayesian Linear Regression and Linear Regression
+# Generative and Bayesian Logistic Regression
 
-For this project, I used a single file function based structure. The layout is as follows.
+For this project, I used a two file structure. The layout is as follows.
 
-main.py - This file holds the functions for training bayesian linear regression and linear regression and executes the models on the various tasks printing the output to the console.
+main.py - This file holds the code that reads in data, runs the algorithms, and outputs the results.
 
-pp2data/ - This folder holds the data used throughout to project.
+model.py - This file holds the functions used to implement the algorithms in the project.
+
+pp3data/ - This folder holds the data used throughout to project.
 
 report/ - The report folder consists of a written report discussing the codes output.
 

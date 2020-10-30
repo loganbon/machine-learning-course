@@ -2,12 +2,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import model
 
-print('Task 1)')
+print('Task 1)\n')
 
 files = ['A', 'B', 'USPS']
 trainSizes = [.1, .2, .3, .4, .5, .6, .7, .8, .9, 1.0]
 
 for fileName in files:
+
+    print('Dataset:', fileName)
 
     dataX = np.genfromtxt('pp3data/' + fileName + '.csv', delimiter=',')
     dataY = np.genfromtxt('pp3data/labels-' + fileName + '.csv')
@@ -63,7 +65,7 @@ for fileName in files:
 
     plt.ylabel('Error Rate')
     plt.xlabel('Training Percent')
-    plt.title('Generative Model: Training Size vs. Error Rate')
+    plt.title(fileName + ' - Generative Model: Training Size vs. Error Rate')
     plt.savefig('output/generative-' + fileName)
     plt.clf()
 
@@ -72,8 +74,54 @@ for fileName in files:
 
     plt.ylabel('Error Rate')
     plt.xlabel('Training Percent')
-    plt.title('Bayes Model: Training Size vs. Error Rate')
+    plt.title(fileName + ' - Bayes Model: Training Size vs. Error Rate')
     plt.savefig('output/bayes-' + fileName)
     plt.clf()
 
 print('\nTask 2)\n')
+
+files = ['A', 'USPS']
+
+for fileName in files:
+
+    print('Dataset:', fileName)
+
+    dataX = np.genfromtxt('pp3data/' + fileName + '.csv', delimiter=',')
+    dataY = np.genfromtxt('pp3data/labels-' + fileName + '.csv')
+
+    newError = []
+    avgNewTime = []
+
+    gradError = []
+    avgGradTime = []
+
+    cut = int(2 * dataX.shape[0] / 3)
+
+    trainX, trainY = dataX[:cut], dataY[:cut]
+    testX, testY = dataX[cut:], dataY[cut:]
+
+    for i in range(3):
+        newError, newTimes = model.BLRTimed('newton', trainX, trainY, testX, testY)
+        avgNewTime.append(newTimes)
+
+        gradError, gradTimes = model.BLRTimed('gradient', trainX, trainY, testX, testY)
+        avgGradTime.append(gradTimes)
+
+    avgNewTime = np.average(avgNewTime, axis=0)
+    avgGradTime = np.average(avgGradTime, axis=0)
+
+    plt.plot(avgNewTime, newError, color='blue')
+    plt.ylabel('Error Rate')
+    plt.xlabel('Time Passed')
+    #plt.yscale('log')
+    plt.title("Newton's Method: " + fileName)
+    plt.savefig('output/newton-' + fileName)
+    plt.clf()
+
+    plt.plot(avgGradTime, gradError, color='blue')
+    plt.ylabel('Error Rate')
+    plt.xlabel('Time Passed')
+    #plt.yscale('log')
+    plt.title('Gradient Ascent ' + fileName)
+    plt.savefig('output/gradient-' + fileName)
+    plt.clf()

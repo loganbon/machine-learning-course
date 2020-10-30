@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 OCT 2020 01:36
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (TeX Live 2020) (preloaded format=pdflatex 2020.4.7)  30 OCT 2020 13:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -242,25 +242,62 @@ Underfull \hbox (badness 10000) in paragraph at lines 14--24
 
 {/usr/local/texlive/2020/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <../outp
 ut/generative-A.png> <../output/bayes-A.png> <../output/generative-B.png> <../o
-utput/bayes-B.png>] [2 <../output/generative-USPS.png> <../output/bayes-USPS.pn
-g>] (./pp3.aux) ) 
+utput/bayes-B.png>]
+<../output/newton-A.png, id=21, 462.528pt x 346.896pt>
+File: ../output/newton-A.png Graphic file (type png)
+<use ../output/newton-A.png>
+Package pdftex.def Info: ../output/newton-A.png  used on input line 29.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/gradient-A.png, id=22, 462.528pt x 346.896pt>
+File: ../output/gradient-A.png Graphic file (type png)
+<use ../output/gradient-A.png>
+Package pdftex.def Info: ../output/gradient-A.png  used on input line 30.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/newton-USPS.png, id=23, 462.528pt x 346.896pt>
+File: ../output/newton-USPS.png Graphic file (type png)
+<use ../output/newton-USPS.png>
+Package pdftex.def Info: ../output/newton-USPS.png  used on input line 31.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+<../output/gradient-USPS.png, id=24, 462.528pt x 346.896pt>
+File: ../output/gradient-USPS.png Graphic file (type png)
+<use ../output/gradient-USPS.png>
+Package pdftex.def Info: ../output/gradient-USPS.png  used on input line 32.
+(pdftex.def)             Requested size: 172.5pt x 129.37639pt.
+
+Overfull \hbox (17.22221pt too wide) in paragraph at lines 29--35
+[][] []
+ []
+
+
+Overfull \hbox (2.22221pt too wide) in paragraph at lines 29--35
+[] [] 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 29--35
+
+ []
+
+[2 <../output/generative-USPS.png> <../output/bayes-USPS.png> <../output/newton
+-A.png> <../output/gradient-A.png>] [3 <../output/newton-USPS.png> <../output/g
+radient-USPS.png>] (./pp3.aux) ) 
 Here is how much of TeX's memory you used:
- 3053 strings out of 480608
- 47457 string characters out of 5903631
- 286074 words of memory out of 5000000
- 18947 multiletter control sequences out of 15000+600000
+ 3077 strings out of 480608
+ 48081 string characters out of 5903631
+ 287074 words of memory out of 5000000
+ 18967 multiletter control sequences out of 15000+600000
  536652 words of font info for 39 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 50i,6n,48p,524b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfont
-s/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/c
-m/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/public/amsfonts/cm/
-cmr17.pfb>
-Output written on pp3.pdf (2 pages, 158036 bytes).
+ 50i,6n,48p,777b,189s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/local/texlive/2020/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmbx12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/
+public/amsfonts/cm/cmr10.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmr12.pfb></usr/local/texlive/2020/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmr17.pfb>
+Output written on pp3.pdf (3 pages, 225901 bytes).
 PDF statistics:
- 40 PDF objects out of 1000 (max. 8388607)
- 19 compressed objects within 1 object stream
+ 51 PDF objects out of 1000 (max. 8388607)
+ 21 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 51 words of extra memory for PDF output out of 10000 (max. 10000000)
 
